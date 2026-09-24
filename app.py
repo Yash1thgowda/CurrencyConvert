@@ -69,7 +69,7 @@ tools = [unit_converter]
 GOOGLE_API_KEY = os.environ.get("GEMINI_API_KEY")
 
 llm_flash = ChatGoogleGenerativeAI(
-    model="gemini-3.5-flash",
+    model="gemini-3.8-flash",
     api_key=GOOGLE_API_KEY,
     temperature=0
 )
